@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body id="bodyid">
+    <div class="main">
+        <div class="card" id="regForm">
+            <div class="card-header">
+                <h2>Registration Now</h2>
+            </div>
+            <div class="card-body">
+                <div class="formgroup">
+                    <label for="txt1">Name</label>
+                    <input type="text" name="txt1" id="txt1" class="formcontrol">
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt2">Email</label>
+                    <input type="text" name="txt2" id="txt2" class="formcontrol">
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt6">City</label>
+                    <select name="drop1" id="drop1" class="formcontrol">
+                        <option value="Hiamtnagar">Hiamtnagar</option>
+                        <option value="Idar">Idar</option>
+                    </select>
+                </div>
+                <div class="formgroup">
+                    <label for="">Gender</label>
+                    <div class="rdio">
+                        <input type="radio" name="rdo1" id="rdo1" value="Male">
+                        <label for="rdo1">Male</label>
+                        <input type="radio" name="rdo1" id="rdo2" value="female">
+                        <label for="rdo2">Female</label>
+                    </div>
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt3">Address</label>
+                    <textarea name="txt3" id="txt3" class="formcontrol"></textarea>
+                </div>
+
+                <div class="formgroup">
+                    <label for="txt4">Date of Birth</label>
+                    <input type="date" id="dt1" name="dt1">
+                </div>
+
+            </div>
+            <div class="card-footer">
+                <button onclick="btn1Click()" id="btn1" name="btn2">Register Now</button>
+
+            </div>
+            <div class="carddata">
+                <div class="databody">
+                    <h2>Data</h2>
+                </div>
+                <div class="content">
+                    <table id="tbl1" border="1" align="center" width="1000">
+                        <thead>
+                            <tr height="40">
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>City</th>
+                                <th>Gender</th>
+                                <th>Address</th>
+                                <th>DateofBirth</th>
+                            </tr>
+                        </thead>
+                        <br><br>
+                        <tbody id="tbdTag">
+                                 <!-- <tr align="center" height="40">
+                                    <td>1</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>
+                                      <input type="button" value="Edit" id="btnedit" name="btnedit" >
+                                    </td>
+                                    <td>
+                                      <input type="button" value="Delte" id="btndelte" name="btndetel" >
+                                        
+                                    </td>
+                                 </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    <script src="from1.js"></script>
+</body>
+</html>
